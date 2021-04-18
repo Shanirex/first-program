@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <script type="text/javascript">
+        let obj = { a: 0}
+        cont impure = (input) => { 
+        // Modifies input.a
+        input.a = input.a + 1;
+        return input.a;
+    }
+    let b = impure(obj)
+    console.log(obj) // Logs { "a" : 1}
+    conole.log(b) // logs 1
+        </script>
+    }
+    </body>
+</html>
